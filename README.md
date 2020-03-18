@@ -5,7 +5,7 @@
 
 
 
-<p align="center">A framework for State of the Art Methods and models for unsupervised learning on Natural language processing</p>
+<p align="center">A micro framework for State of the Art Methods and models for unsupervised learning on Natural language processing</p>
 
 
 #### Semantic similarity with context aware attention
