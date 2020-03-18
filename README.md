@@ -20,6 +20,8 @@
 
 ## Semantic similarity
 
+
+### From Pre-trained Transformers
 1. Get sentence similaity from Pre-trained Transformers in just three lines
 
 
@@ -34,7 +36,7 @@ embed = transformer_model.unbox_transformer_sm(query = {
                                                config_file = {'preprocessing': True})
 ```
 
-
+### From Tensorflow-hub 
 2. Get sentence similaity from Pre-trained Tensorflow-hub in just three lines
 
 
