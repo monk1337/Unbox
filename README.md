@@ -9,8 +9,10 @@
 
 ## Features 
 
-#### Unbox_sm    : Semantic similarity with context aware attention
-####  Unbox_emb  : Get state of the art embeddings for text dataset
-#### Unbox_nlg   : From NLU to NLG : Question Generation
-#### Unbox_Qa    : Question Answering
+- [x] Unbox_sm    : Semantic similarity with context aware attention
+- [x] Unbox_emb   : State of the art embeddings for text dataset
+- [x] Unbox_nlg   : From NLU to NLG : Question Generation
+- [x] Unbox_Qa    : Question Answering
+- [x] Unbox_Qa    : Deep Learning Clustering
+- [x] Unbox_Qa    : Autoencoders, Latent representation
 
