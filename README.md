@@ -1,7 +1,7 @@
 <p align="center">
   <img width="80" src="./Extra/unbox.png">
 </p>
-<h1 align="center">Unsupervised learning Tool box</h1>
+<h1 align="center">Unsupervised Toolbox</h1>
 
 
 
