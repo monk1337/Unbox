@@ -18,6 +18,7 @@
 - Autoencoders, Latent representation
 
 
+## Semantic similarity
 
 1. Get sentence similaity from Pre-trained Transformers in just three lines
 
@@ -47,5 +48,5 @@ embed = transformer_model.unbox_sm(query = { 'query_a': 'Hello World, how are yo
                                              'query_b': 'I am fine' 
                                             }, 
                                   config_file = {'preprocessing': True})
-                                  ```
+```
    
