@@ -17,11 +17,13 @@
 - Deep Learning Clustering
 - Autoencoders, Latent representation
 
+
+
 1. Get sentence similaity from Pre-trained Transformers in just three lines
 
 
 ```python
-from semantic_similarity.unbox_transformers_sm import Unbox_transformers
+from unbox_transformers_sm import Unbox_transformers
 transformer_model = Unbox_transformers()
 
 embed = transformer_model.unbox_transformer_sm(query = {
