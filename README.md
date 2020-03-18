@@ -36,6 +36,7 @@ embed = transformer_model.unbox_transformer_sm(query = {
                                                config_file = {'preprocessing': True})
 ```
 
+#### output
 
 ```python
 
@@ -66,7 +67,8 @@ embed = transformer_model.unbox_sm(query = { 'query_a': 'Hello World, how are yo
                                   config_file = {'preprocessing': True})
 ```
    
-   
+#### output
+
 ```python
 
 {
