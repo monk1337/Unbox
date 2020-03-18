@@ -1,7 +1,7 @@
 <p align="center">
   <img width="80" src="./Extra/unbox.png">
 </p>
-<h1 align="center">Unsupervised Toolbox</h1>
+<h2 align="center">Unsupervised Toolbox</h2>
 
 
 
