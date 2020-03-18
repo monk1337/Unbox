@@ -36,6 +36,20 @@ embed = transformer_model.unbox_transformer_sm(query = {
                                                config_file = {'preprocessing': True})
 ```
 
+
+```python
+
+{
+'query_a': 'Hello how are you', 
+'query_b': 'Hello I am fine', 
+'similarity_value': 0.6853398323059082
+}
+
+
+```
+
+
+
 ### From Tensorflow-hub 
 2. Get sentence similaity from Pre-trained Tensorflow-hub in just three lines
 
@@ -52,3 +66,14 @@ embed = transformer_model.unbox_sm(query = { 'query_a': 'Hello World, how are yo
                                   config_file = {'preprocessing': True})
 ```
    
+   
+```python
+
+{
+'query_a': 'Hello World, how are you', 
+'query_b': 'I am fine', 
+'similarity_value': 0.2853398323059082
+}
+
+
+```
