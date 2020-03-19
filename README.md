@@ -18,6 +18,46 @@
 - Autoencoders, Latent representation
 
 
+## Natural Language Generation
+
+1. Generate the questions from given Paragraph using unsupervised Transformers  in three lines
+
+
+```python
+from nlg import unbox_nlg
+
+paragraph = ["Waiting had its world premiere at the \
+              Dubai International Film Festival on 11 December 2015 to positive reviews \
+              from critics. It was also screened at the closing gala of the London Asian \
+              Film Festival, where Menon won the Best Director Award."]
+
+result = unbox_nlg.generate_question(paragraph)
+
+```
+#### output
+
+```python
+
+{
+    "Generated_result": [
+        {
+            "generated_questions": "Who won the Best Director Award ?",
+            "answer": "Menon",
+            "c.paragraph.text": "Waiting had its world premiere at the               Dubai International Film Festival on 11 December 2015 to positive reviews               from critics. It was also screened at the closing gala of the London Asian               Film Festival, where Menon won the Best Director Award."
+        },
+        {
+            "generated_questions": "What did Menon do ?",
+            "answer": "the Best Director Award",
+            "c.paragraph.text": "Waiting had its world premiere at the               Dubai International Film Festival on 11 December 2015 to positive reviews               from critics. It was also screened at the closing gala of the London Asian               Film Festival, where Menon won the Best Director Award."
+        }
+    ]
+}
+
+
+```
+
+
+
 ## Semantic similarity
 
 
