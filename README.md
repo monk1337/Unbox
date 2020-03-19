@@ -24,7 +24,7 @@
 
 
 ```python
-from nlg import unbox_nlg
+from unbox import unbox_nlg
 
 paragraph = ["Waiting had its world premiere at the \
               Dubai International Film Festival on 11 December 2015 to positive reviews \
