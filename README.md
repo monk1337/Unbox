@@ -55,6 +55,29 @@ result = unbox_nlg.generate_question(paragraph)
 
 
 ```
+## Question Answer
+
+```python
+
+from unbox.quention_answering import unbox_qa
+
+print(unbox_qa({
+    'question': "Who won the Best Director Award ?",
+    'context': "Waiting had its world premiere at the \
+              Dubai International Film Festival on 11 December 2015 to positive reviews \
+              from critics. It was also screened at the closing gala of the London Asian \
+              Film Festival, where Menon won the Best Director Award."
+}))
+
+```
+
+#### output
+
+```python
+
+{'score': 0.9980590308245141, 'start': 250, 'end': 255, 'answer': 'Menon'}
+
+```
 
 
 
