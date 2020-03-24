@@ -17,6 +17,7 @@
 - Deep Learning Clustering
 - Autoencoders, Latent representation
 
+#### still in development mode
 
 ## Natural Language Generation
 
